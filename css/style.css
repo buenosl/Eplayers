@@ -1,0 +1,39 @@
+/* Css Reseting */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1e1c21;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 300px; ;
+}
