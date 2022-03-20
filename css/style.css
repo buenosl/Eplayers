@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto:wght@400;500;700;900&family=Titillium+Web:wght@400;600;700&display=swap');
 /* Css Reseting */
 *{
     margin: 0px;
@@ -15,14 +16,14 @@ header {
     margin: 0 auto;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.menu{
+.menu {
     width: 650px;
     display: flex;
     justify-content: space-between;
@@ -32,8 +33,93 @@ header {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .logo{
     width: 300px; ;
+}
+
+.banner {
+    height: 750px;
+    background-image: url(../img/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.posicionamento-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.conteudo-banner h1 {
+    font-family: "Titillium Web";
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.conteudo-banner a {
+    color: white;
+    background-color: #c31616;
+    padding: 15px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+
+.conteudo-banner {
+    width: 495px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.conteudo-banner p {
+    font-family: "Roboto";
+    font-size: 25px;
+  
+}
+
+.jogos{
+    height: 100px;
+    background: black;
+    
+}
+
+.posicionamento-jogos {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*.posicionamento-jogos img {
+    width: 150px;
+}*/
+
+@media screen and (max-width: 1200px){
+    .container-grid{
+        width: 90vw;
+    }
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: darkblue;
+    }
+ 
+ .logo {
+     width: 100px;
+ }   
+
 }
